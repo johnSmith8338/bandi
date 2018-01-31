@@ -1231,6 +1231,15 @@ p {
         padding: 0 10px;
         font-weight: 700;
         font-size: 20px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .top_header .top_navigation li:last-child{
+        margin: 0;
+    }
+    .top_header .top_navigation li:hover,
+    .top_header .top_navigation li.active{
+        border: none;
     }
     .banner_wrapper {
         height: 70vh;
@@ -1341,11 +1350,14 @@ p {
 }
 
 @media only screen and (max-width: 400px) {
-    .top_header .hidden_menu_holder {
-        left: 80%;
-    }
     .banner_wrapper .banner_slider {
-        top: 30%;
+        top: 35%;
+    }
+    .banner_wrapper .banner_description h1{
+        font-size: 50px;
+    }
+    .banner_wrapper .banner_link{
+        font-size: 40px;
     }
     .works_holder .works_main_text {
         font-size: 14px;
